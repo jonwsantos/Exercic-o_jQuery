@@ -34,16 +34,14 @@ button {
     text-transform: uppercase;
 }
 
-div {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+ul {
+    display: block;
+    margin: 0 auto;
+    max-width: fit-content;
 }
 
-li {
+ul li {
+    text-align: center;
     cursor: pointer;
-}
-
-input:checked + .riscar-texto {
-    text-decoration: line-through;
+    list-style: none;
 }
